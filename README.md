@@ -303,9 +303,9 @@ llm-for-science/
 │   │                     # BfdtsGraph, Markdown, CopyButton, ...
 │   └── lib/              # api.ts, types.ts, persistence.ts, fileIcon.tsx, ...
 ├── tools/                # LangChain @tool wrappers
-│   ├── scitool_tools.py  # SciToolAgent KG shortcuts + run_scitool dispatcher
-│   ├── gym_tools.py      # SciAgentGYM AST-index + dynamic loader
-│   ├── kg_planner.py     # BFDTS algorithm over KG graph_store.json
+│   ├── scitool_tools.py 
+│   ├── gym_tools.py 
+│   ├── kg_planner.py     # BFSDT algorithm over KG graph_store.json
 │   ├── planner.py        # make_science_plan — mandatory first tool
 │   ├── _bfdts_trace.py   # thread_id-keyed trace side-channel for UI
 │   ├── dynamic_agent.py  # spawn_agent for runtime subagent creation
