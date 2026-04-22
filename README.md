@@ -314,11 +314,11 @@ llm-for-science/
 ├── skills/               # SKILL.md per domain (Skills middleware auto-injects)
 ├── workspace/            # User-uploaded files (gitignored)
 ├── vendor/               # 12 MB — vendored external code
-│   ├── ToolsAgent/       # SciToolAgent functions + Config + .env templates
-│   ├── KG/               # graph_store.json (SciToolAgent Knowledge Graph)
-│   ├── gym/              # SciAgentGYM runtime (4 files)
-│   └── toolkits/         # 183 GYM function files
-├── memory.db             # SqliteSaver per-thread agent memory (gitignored)
+│   ├── ToolsAgent/       
+│   ├── KG/               
+│   ├── gym/             
+│   └── toolkits/         
+├── memory.db            
 └── requirements.txt
 ```
 
