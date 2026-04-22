@@ -43,16 +43,22 @@ logs/
 
 # ── Sci-Agent runtime artifacts ────────────────────────
 # LangGraph SqliteSaver checkpointer (per-machine chat memory)
-sci-agent/memory.db
-sci-agent/memory.db-shm
-sci-agent/memory.db-wal
+memory.db
+memory.db-shm
+memory.db-wal
 
 # Uploaded files & generated outputs — keep directory, ignore contents
-sci-agent/workspace/*
-!sci-agent/workspace/.gitkeep
+workspace/*
+!workspace/.gitkeep
 
-# Downloaded arXiv / PDF test artifacts
-sci-agent/ToolsKG/TempFiles/
+# Downloaded arXiv / PDF test artifacts (vendored SciToolAgent temp cache)
+ToolsKG/TempFiles/
+vendor/ToolsAgent/TempFiles/
+
+# Runtime artifact dirs that accumulate during agent runs
+mid_result/
+output/
+tool_images/
 
 # ── Secrets ────────────────────────────────────────────
 *.pem
